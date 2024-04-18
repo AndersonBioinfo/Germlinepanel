@@ -1,0 +1,1209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	    
+
+   <meta property="og:title" content="Activities"><title>Activities</title><meta name="Description" content="Activities"><meta name="Keywords" content="Activities"><meta itemprop="name" content="Activities"><meta itemprop="description" content="Activities">		
+    <link href="/css_resp/bootstrap.min.css" rel="stylesheet">    
+    <link href="/css/font-awesome-6-4-2/css/all.min.css" rel="stylesheet">
+	<link href="/css_resp/owl.carousel.css" rel="stylesheet">
+    <link href="/css_resp/owl.transitions.css" rel="stylesheet">
+	<link href="/css_resp/main.css" rel="stylesheet">
+	<link href="/css_resp/jPushMenu.css" rel="stylesheet">
+	<link id="css-preset" href="/css_resp/overridesNewDesign.css?v=20210415" rel="stylesheet">
+	<link href="/css_resp/responsive.css?v=20200312" rel="stylesheet">	
+	    <link href="/css_resp/bootstrap-datepicker.min.css" rel="stylesheet" />
+    <link href="/css_resp/bootstrap-year-calendar.min.css" rel="stylesheet" />
+	<link href='//fonts.googleapis.com/css?family=Raleway:400,300,500,700,800,100,600' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+	    <script src="/js_resp/html5shiv.js"></script>
+	    <script src="/js_resp/respond.min.js"></script>
+    <![endif]-->       
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+
+    
+<script async src=https://www.googletagmanager.com/gtag/js?id=G-JQVYYLVHJP></script>
+
+        <script type="text/javascript" src="/js_resp/vendor/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="/js_resp/vendor/bootstrap.min.js"></script>	
+	<script type="text/javascript" src="/js_resp/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="/js_resp/mousescroll.js"></script>
+	<script type="text/javascript" src="/js_resp/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="/js_resp/jPushMenu.js"></script>
+    <script type="text/javascript" src="/js_resp/main.js"></script>
+    <script type="text/javascript" src="/js_resp/isotope.pkgd.min.js"></script>
+	    <script src="/js_resp/bootstrap-year-calendar.js"></script>
+    <script src="/js_resp/bootstrap-datepicker.min.js"></script>
+    <script src="/js_resp/bootstrap-popover.js"></script>
+	<script src="/js_resp/imageMapResizer.min.js"></script>
+
+   
+	
+	
+<script>
+ function OpenDOI(personid)
+{
+    mywindow = window.open("https://www.eshre.eu/Layouts/MyEshre/PopupDOI.aspx?personid=" +personid, "mywindow", "location=1,status=1,scrollbars=1,  width=700,height=800");
+    mywindow.moveTo(0, 0);
+}
+
+
+
+
+
+</script>
+   <link rel="stylesheet" type="text/css" href="/css_resp/cookieconsent.min.css" />
+   
+   <style>
+
+   
+   </style>
+<script src="/js_resp/cookieconsent.min.js"></script>
+
+<script>
+
+    function createCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+
+window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+        onInitialise: function (status) {
+            var type = this.options.type;
+            var didConsent = this.hasConsented();
+            if (type == 'opt-in' && didConsent) {
+                // enable cookies
+                var a = this.status;
+            }
+        },
+        revokable: true,
+        onStatusChange: function (status, chosenBefore) {
+            var type = this.options.type;
+            //var didConsent = this.hasConsented();
+            if (type == 'opt-in' && status=="allow") {
+                // enable cookies
+               // createCookie("COOKIESALLOW","true",365);
+                createCookie("cookieconsent_status", "allow", 1);
+            } else {
+                createCookie("cookieconsent_status", "deny", 1);
+            }
+        },
+        Default:'deny',
+        onRevokeChoice: function () {
+            var type = this.options.type;
+            if (type == 'opt-in') {
+                // disable cookies
+               // createCookie("COOKIESALLOW", "false", -1);
+                createCookie("cookieconsent_status", "deny", 1);
+            }
+        },
+
+  "palette": {
+    "popup": {
+        "background": "#82c417"
+    },
+    "button": {
+        "background": "#1C3075"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-left",
+  "type": "opt-in",
+  "content": {
+      "message": "Your privacy is essential to us and thus we have updated our <a href='https://www.eshre.eu/Privacy-Declaration-ESHRE.aspx' target='blank' ><u>privacy policy</u></a> on 15 November 2021. <br/><br/> Our website uses cookies, including analytics cookies, to tailor our services and website to your needs as best as we can. For more information about the use of cookies, please read our <a href='https://www.eshre.eu/ESHRE/Cookies.aspx' target='blank' ><u>cookie policy</u></a>. Please note that you can change your cookie options at any time via your browser settings.",
+    "dismiss": "I do not accept cookies",
+    "allow": "I accept cookies ",
+    "link": "",
+    "href": "https://www.eshre.eu/ESHRE/Cookies.aspx"
+
+  }
+})
+});
+</script>
+
+<!-- Sitecore Visitor Identification -->
+ 
+
+
+</head>
+<body>
+<form method="post" action="/Specialty-groups/Special-Interest-Groups/Reproductive-Genetics/Activities" id="mainform">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+
+<script src="/ScriptResource.axd?d=NJmAwtEo3Ioyc3_Sujz4swJ3VLUwiGObYYIaXAM2srJ4RGtSPBVt8PBo0OnWbLyr-BayD31dCaj3FzUZGDBpgPf5QNQhOX8RJddvcpvc9WzfpIkk1XSxGbT6jB-Aq1fBTo-QfVwPdDOvHcRy_OXF_XgtvLuuxIDPQS2mQJSnowC2uKOAmEP0yaluPl5P1Do00&amp;t=5d0a842b" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="58A95A36" />
+</div>
+       
+ <!--                        nav bar top    !-->    
+    
+	   
+			
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="accordion" role="tablist" aria-multiselectable="true">
+    <h3>Menu<span>
+        <a href="#">
+            <i class="fa fa-times toggle-menu menu-left"></i>
+        </a>
+    </span>
+    </h3>
+
+    
+            
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading1">
+
+                    <button role="button"    data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapsecollapse1">
+                        Home
+                    </button>
+					
+                </div>
+                <div id="collapse1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      
+
+                        
+
+                                
+
+                                <a href="/en/Home">Home</a>
+                            
+
+                                <a href="/en/Home/COVID19WG">COVID-19 and ART</a>
+                            
+
+                                <a href="/en/Home/About-us">About us</a>
+                            
+
+                                <a href="/en/Home/Committees">Committees</a>
+                            
+
+                                <a href="/en/Home/Other-societies">Other societies</a>
+                            
+
+                                <a href="/en/Home/Fertility-education">Fertility education</a>
+                            
+
+                            
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading2">
+
+                    <button role="button"    data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapsecollapse2">
+                        Membership
+                    </button>
+					
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      
+
+                        
+
+                                
+
+                                <a href="/en/Membership">Membership</a>
+                            
+
+                                <a href="/en/Membership/About">About ESHRE membership</a>
+                            
+
+                                <a href="/en/Membership/Honorary-members">Honorary members</a>
+                            
+
+                                <a href="/en/Membership/FAQ">FAQ</a>
+                            
+
+                                <a href="/en/Membership/Mentorship-programme">Mentorship programme</a>
+                            
+
+                                <a href="/en/Membership/Terms-and-conditions">Terms and conditions</a>
+                            
+
+                            
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading3">
+
+                    <button role="button"    data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapsecollapse3">
+                        Guidelines
+                    </button>
+					
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      
+
+                        
+
+                                
+
+                                <a href="/en/Guidelines-and-Legal">Guidelines</a>
+                            
+
+                                <a href="/en/Guidelines-and-Legal/Contribute">Contribute</a>
+                            
+
+                                <a href="/en/Guidelines-and-Legal/Position-statements">Position statements</a>
+                            
+
+                                <a href="/en/Guidelines-and-Legal/Patients">Guidelines for patients</a>
+                            
+
+                            
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading4">
+
+                    <button role="button"    data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapsecollapse4">
+                        Advocacy & Policy
+                    </button>
+					
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      
+
+                        
+
+                                
+
+                                <a href="/en/Europe">Advocacy & Policy</a>
+                            
+
+                                <a href="/en/Europe/Projects">Projects</a>
+                            
+
+                                <a href="/en/Europe/Position-statements">Position statements</a>
+                            
+
+                                <a href="/en/Europe/Factsheets-and-infographics">Factsheets and infographics</a>
+                            
+
+                                <a href="/en/Europe/Governance-of-MAR-in-Europe">Governance of MAR in Europe</a>
+                            
+
+                            
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading5">
+
+                    <button role="button"    data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapsecollapse5">
+                        Education
+                    </button>
+					
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      
+
+                        
+
+                                
+
+                                <a href="/en/Education">Education</a>
+                            
+
+                                <a href="/en/Education/Calendar-Campus-events">Calendar ESHRE Campus events</a>
+                            
+
+                                <a href="/en/Education/Webinars">Calendar ESHRE Webinars</a>
+                            
+
+                                <a href="/en/Education/Expert-meetings">Expert meetings</a>
+                            
+
+                                <a href="/en/Education/epresentations">Webcasts and e-posters</a>
+                            
+
+                                <a href="/en/Education/Calendar-Non-ESHRE-events">Calendar Non-ESHRE events</a>
+                            
+
+                            
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading6">
+
+                    <button role="button"    data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapsecollapse6">
+                        Annual Meeting
+                    </button>
+					
+                </div>
+                <div id="collapse6" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      
+
+                        
+
+                                
+
+                                <a href="/en/Annual-Meeting">Annual Meeting</a>
+                            
+
+                                <a href="/en/Annual-Meeting/ESHRE-2024">ESHRE 2024</a>
+                            
+
+                                <a href="/en/Annual-Meeting/ESHRE-2023">ESHRE 2023</a>
+                            
+
+                                <a href="/en/Annual-Meeting/ESHRE2022">ESHRE 2022</a>
+                            
+
+                            
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading7">
+
+                    <button2 role="button" onclick="window.location.href='/en/Exhibition-and-sponsorship'"   data-toggle="" data-parent="" href="/en/Exhibition-and-sponsorship" aria-expanded="" aria-controls="collapse">
+                        Exhibit and Sponsor
+                    </button2>
+					
+                </div>
+                <div id="collapse7" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      
+
+                        
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading8">
+
+                    <button2 role="button" onclick="window.location.href='/en/Specialty-groups'"   data-toggle="" data-parent="" href="/en/Specialty-groups" aria-expanded="" aria-controls="collapse">
+                        Specialty Groups
+                    </button2>
+					
+                </div>
+                <div id="collapse8" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      
+
+                        
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading9">
+
+                    <button role="button"    data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapsecollapse9">
+                        Data collection
+                    </button>
+					
+                </div>
+                <div id="collapse9" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      
+
+                        
+
+                                
+
+                                <a href="/en/Data-collection-and-research">Data collection</a>
+                            
+
+                                <a href="/en/Data-collection-and-research/Research-grant">Research grant</a>
+                            
+
+                                <a href="/en/Data-collection-and-research/Consortia">Consortia</a>
+                            
+
+                                <a href="/en/Data-collection-and-research/EuMAR">EuMAR</a>
+                            
+
+                            
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading10">
+
+                    <button2 role="button" onclick="window.location.href='/en/Research-and-funding'"   data-toggle="" data-parent="" href="/en/Research-and-funding" aria-expanded="" aria-controls="collapse">
+                        Research & Funding
+                    </button2>
+					
+                </div>
+                <div id="collapse10" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      
+
+                        
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading11">
+
+                    <button role="button"    data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapsecollapse11">
+                        Certifications
+                    </button>
+					
+                </div>
+                <div id="collapse11" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      
+
+                        
+
+                                
+
+                                <a href="/en/Accreditation-and-Certification">Certifications</a>
+                            
+
+                                <a href="/en/Accreditation-and-Certification/Online-home-exam-policy">Online home exam policy</a>
+                            
+
+                                <a href="/en/Accreditation-and-Certification/Certification-for-embryologists">Certification for clinical embryologists</a>
+                            
+
+                                <a href="/en/Accreditation-and-Certification/Center-accreditation-of-subspecialist-training">Centre accreditation of subspecialist training programme in Reproductive Medicine</a>
+                            
+
+                                <a href="/en/Accreditation-and-Certification/ECRES">ESHRE Certification for Reproductive Endoscopic Surgeons</a>
+                            
+
+                                <a href="/en/Accreditation-and-Certification/Nurses-Midwives-Certification">Nurses and Midwives Certification</a>
+                            
+
+                                <a href="/en/Accreditation-and-Certification/Accreditation-of-training-centres-in-clinical-embryology">Accreditation of training centres in clinical embryology</a>
+                            
+
+                            
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading12">
+
+                    <button role="button"    data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapsecollapse12">
+                        Journals
+                    </button>
+					
+                </div>
+                <div id="collapse12" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      
+
+                        
+
+                                
+
+                                <a href="/en/Publications">Journals</a>
+                            
+
+                                <a href="/en/Publications/Focus-on-Reproduction">Focus on Reproduction</a>
+                            
+
+                                <a href="/en/Publications/Journals">Journals</a>
+                            
+
+                                <a href="/en/Publications/Textbooks-and-lecture-handouts">Guidelines and lecture handouts</a>
+                            
+
+                            
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading13">
+
+                    <button role="button"    data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapsecollapse13">
+                        Press Room
+                    </button>
+					
+                </div>
+                <div id="collapse13" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      
+
+                        
+
+                                
+
+                                <a href="/en/Press-Room">Press Room</a>
+                            
+
+                                <a href="/en/Press-Room/Press-releases-2023">Press releases 2023</a>
+                            
+
+                                <a href="/en/Press-Room/Press-releases-2022">Press releases 2022</a>
+                            
+
+                                <a href="/en/Press-Room/Press-releases-2021">Press releases 2021</a>
+                            
+
+                                <a href="/en/Press-Room/ESHRE-News">ESHRE News</a>
+                            
+
+                                <a href="/en/Press-Room/Resources">Resources</a>
+                            
+
+                            
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        
+        
+</nav>
+
+
+	<div class="overlay">
+		      
+                
+<header id="navigation">
+    <div class="navbar navbar-static-top" role="banner">
+        <div class="container nopaddingmobile">
+            <div class="row header-section">
+                <div class="col-sm-12">
+                    <div class="topbar-hamburger">
+
+                        <a href="#"><i class="fa fa-bars fa-2x toggle-menu menu-left"></i></a>
+                    </div>
+                    <div class="topbar-slogan">
+                        <h1 class="visible-lg"><a href="https://www.eshre.eu">
+                            <img src="/img_resp/eshre-logo-white.png"></a>
+                            
+                            European Society of <span>Human Reproduction and Embryology</span></h1>
+                        <h1 class="hidden-lg"><a href="https://www.eshre.eu">
+                            <img src="/img_resp/eshre-logo-white.png" style="max-height: 50px; width: auto;"></a></h1>
+                    </div>
+                    <div class="topbar-icons hidden-xs">
+                        <span><i class="fa fa-search"></i></span>
+                        
+                            
+                                <span>
+                                    <a title="Home" href="/en/" target="">
+                                        <i class="fa-solid fa-house"></i>
+                                    </a></span>
+                            
+                                <span>
+                                    <a title="Facebook" href="http://www.facebook.com/eshre.eu" target="_blank">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a></span>
+                            
+                                <span>
+                                    <a title="twitter" href="https://twitter.com/ESHRE" target="_blank">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a></span>
+                            
+                                <span>
+                                    <a title="linkedin" href="https://www.linkedin.com/company/european-society-of-human-reproduction-and-embryology-eshre-/" target="_blank">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a></span>
+                            
+                                <span>
+                                    <a title="youtube" href="http://www.youtube.com/user/ESHRE1" target="_blank">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a></span>
+                            
+                                <span>
+                                    <a title="instagram" href="https://www.instagram.com/eshre_official" target="_blank">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a></span>
+                            
+                            
+                        <span style="display:none;" class="sign-out-link"><a href=""><i class="fa fa-sign-out"></i>Logout</a></span>
+                        <span style="" class="sign-out-link"><a href="https://www.eshre.eu/Eshre/Login.aspx"><i class="fa fa-sign-in"></i>Login</a></span>
+
+                    </div>
+                    <div class="search">
+                        <div role="form">
+                            <input type="text" id="searchbox" class="search-form" autocomplete="off" placeholder="Write something and press enter">
+                            <span class="search-close"><i class="fa fa-times"></i></span>
+                            <script type="text/javascript">
+                                jQuery(document).ready(function () {
+
+                                    jQuery('#searchbox').keypress(function (event) {
+
+                                        if (event.keyCode == 10 || event.keyCode == 13) {
+                                            if (jQuery('#searchbox').val() != "") {
+
+                                                window.location.href = "/Home/ESHRE/Search_Results?searchStr=" + jQuery('#searchbox').val();
+                                            }
+                                        }
+                                    });
+
+                                });
+                            </script>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+		<div id="main-blog">
+			<div class="container">
+			
+			<div style="">
+                  <div class="row"><div class="col-md-12"><ul class="breadcrumb"><li><a href="/en/"><i class="fa fa-home"></i> Home
+			    </a></li><li><a href="/en/Specialty-groups">Specialty Groups</a></li><li><a href="/en/Specialty-groups/Special-Interest-Groups">Special Interest Groups</a></li><li><a href="/en/Specialty-groups/Special-Interest-Groups/Reproductive-Genetics">Reproductive Genetics</a></li><li>Activities</li></ul></div></div>
+				  </div>
+				  
+                
+<style>
+	#main-blog{background-color: #ffffff;}
+	.breadcrumb{background-color: #ffffff;}
+	</style>	
+  <!-- Content blocks -->     
+	<div class="row"> 
+    
+    <!-- right block -->	
+		<div  class="col-md-9 col-md-push-3 rightblockcontent">
+        <h1>Activities</h1>
+   
+         
+          
+<style>
+.grid-item{min-height: initial;}
+.rightblockcontent{background:none!important}
+.widget p {
+    padding: 8px 20px 0px 20px!important;
+}
+.rightblockcontent h1:first-child{margin-top: 0px;}
+</style>
+<div class="row">
+<div class="col-md-12">
+						<div style="" class="button-group filters-button-group">Filter:
+							<button class="button-none is-checked" data-filter="*">Show all</button>							
+                            
+                                    <button class="button-On-demand" data-filter=".On-demand">On-demand</button>
+                                
+                                    <button class="button-Webinars" data-filter=".Webinars">Webinars</button>
+                                
+                                    <button class="button-Workshops" data-filter=".Workshops">Workshops</button>
+                                
+                                    <button class="button-Precongress-Course" data-filter=".Precongress-Course">Precongress Course</button>
+                                
+                            <button style="display:none;" class="button-none" data-filter=".fully-booked">Fully booked</button>
+							<button style="display:none;"  class="button-none" data-filter=".places-available">Places available</button>
+						</div>
+						<div class="grid">
+                            
+                                
+									
+					<a href="/en/Education/Calendar-Campus-events/Calendar-on-demand/Factoring-genetics">				
+				<div class="grid-item  On-demand places-available  widget rounded-10" style="background-color: #fff; color:#fff;overflow: hidden;padding: 0px;">
+					<div style="margin:0px;">
+						<p class="w-title"><strong>Factoring genetics in the management of implantation and early pregnancy</strong></p>
+					</div>
+					<div style="display: block;background-color: #3859b5;width: 100%;padding: 0px 0px 10px;    ">
+						
+							<div style=" max-height: 250px;overflow: hidden;" class="videofile"> 
+						    	<center>
+						    		<img class="Video_img" style="max-width:100%;width:100%;opacity:1" src="/-/media/Email-Campaign/Workshops/23Florence20.jpg">
+						    	</center>
+							</div>
+						
+						<p>A focus on current and emerging applications of genetics in reproductive medicine, their clinical implications, putative medium and long-term effects. <br /></p>
+						<p><i class="fa fa-map-marker" style="margin:0 15px 0 0"></i>On-demand on eCampus</p>
+						<p><i class="fa fa-calendar" style="margin:0 15px 0 0; padding-top:0px; padding-bottom:0px;"></i>registration open until 11 May 2024</p>
+						
+						<div class="topicCalImg"> <p class="text-center"><img class="center-block imgSIGCalender" src="/-/media/Icons/SIG/PNG/White_48x48_Implantation-and-Early-Pregnancy.png"  /><img class="center-block imgSIGCalender" src="/-/media/Icons/SIG/PNG/White_48x48_Reproductive-Genetics.png"  /></p></div><p></p>
+						
+					</div>
+				</div>
+					</a>				
+									
+									
+									
+									
+									
+									
+									
+									
+                               
+                                
+									
+					<a href="/en/Education/Webinars/Webinar_RG24_March">				
+				<div class="grid-item  Webinars places-available  widget rounded-10" style="background-color: #fff; color:#fff;overflow: hidden;padding: 0px;">
+					<div style="margin:0px;">
+						<p class="w-title"><strong>Current practice and practitioners view on preconception ECS: ESHRE-ESHG Survey results</strong></p>
+					</div>
+					<div style="display: block;background-color: #3859b5;width: 100%;padding: 0px 0px 10px;    ">
+						
+							<div style=" max-height: 250px;overflow: hidden;" class="videofile"> 
+						    	<center>
+						    		<img class="Video_img" style="max-width:100%;width:100%;opacity:1" src="/-/media/Images/eLearning/Webinars/Webinar-RG24_Web-800x400.jpg">
+						    	</center>
+							</div>
+						
+						<p>This webinar will review and discuss the results of a recently performed survey, developed by ESHRE and ESHG, on the current practice related to ECS in ART centres across Europe.</p>
+						<p><i class="fa fa-map-marker" style="margin:0 15px 0 0"></i>Webinar</p>
+						<p><i class="fa fa-calendar" style="margin:0 15px 0 0; padding-top:0px; padding-bottom:0px;"></i>12 March 2024</p>
+						
+						<div class="topicCalImg"> <p class="text-center"><img class="center-block imgSIGCalender" src="/-/media/Icons/SIG/PNG/White_48x48_Reproductive-Genetics.png"  /></p></div><p></p>
+						
+					</div>
+				</div>
+					</a>				
+									
+									
+									
+									
+									
+									
+									
+									
+                               
+                                
+									
+					<a href="/en/Education/Calendar-Campus-events/When-embryology-meets-genetics">				
+				<div class="grid-item  Workshops places-available  widget rounded-10" style="background-color: #fff; color:#fff;overflow: hidden;padding: 0px;">
+					<div style="margin:0px;">
+						<p class="w-title"><strong>When embryology meets genetics</strong></p>
+					</div>
+					<div style="display: block;background-color: #3859b5;width: 100%;padding: 0px 0px 10px;    ">
+						
+							<div style=" max-height: 250px;overflow: hidden;" class="videofile"> 
+						    	<center>
+						    		<img class="Video_img" style="max-width:100%;width:100%;opacity:1" src="/-/media/Email-Campaign/Workshops/2024/24Prague_Web-800x400_KM.jpg">
+						    	</center>
+							</div>
+						
+						<p>This Campus considers the application of new techniques emerging from embryology and reproductive genetics for the assessment of gamete and embryo competence.</p>
+						<p><i class="fa fa-map-marker" style="margin:0 15px 0 0"></i>Prague, Czech Republic</p>
+						<p><i class="fa fa-calendar" style="margin:0 15px 0 0; padding-top:0px; padding-bottom:0px;"></i>18-20 April 2024</p>
+						
+						<div class="topicCalImg"> <p class="text-center"><img class="center-block imgSIGCalender" src="/-/media/Icons/SIG/PNG/White_48x48_Reproductive-Genetics.png"  /><img class="center-block imgSIGCalender" src="/-/media/Icons/SIG/PNG/White_48x48_Embryology.png"  /></p></div><p></p>
+						
+					</div>
+				</div>
+					</a>				
+									
+									
+									
+									
+									
+									
+									
+									
+                               
+                                
+									
+					<a href="/en/ESHRE2024/Programme/Precongress-Courses/Course-10-Reproductive-Genetics">				
+				<div class="grid-item  Precongress-Course places-available  widget rounded-10" style="background-color: #fff; color:#fff;overflow: hidden;padding: 0px;">
+					<div style="margin:0px;">
+						<p class="w-title"><strong>An update on genetics in reproduction</strong></p>
+					</div>
+					<div style="display: block;background-color: #3859b5;width: 100%;padding: 0px 0px 10px;    ">
+						
+							<div style=" max-height: 250px;overflow: hidden;" class="videofile"> 
+						    	<center>
+						    		<img class="Video_img" style="max-width:100%;width:100%;opacity:1" src="/-/media/Images/Annual-meeting/Amsterdam2024/ESHRE24-homebanner.jpg">
+						    	</center>
+							</div>
+						
+						<p>The precongress course will cover all aspects of recent advances in reproductive genetics testing from infertility investigation and preconception testing for infertility assessment to preimplantation genetic testing and fetal genetic diagnosis. Each session will be composed of one lecture on current standard practices and one on innovative applications under development.<br class="t-last-br" /></p>
+						<p><i class="fa fa-map-marker" style="margin:0 15px 0 0"></i>Amsterdam, The Netherlands</p>
+						<p><i class="fa fa-calendar" style="margin:0 15px 0 0; padding-top:0px; padding-bottom:0px;"></i>07 July 2024</p>
+						
+						<div class="topicCalImg"> <p class="text-center"><img class="center-block imgSIGCalender" src="/-/media/Icons/SIG/PNG/White_48x48_Reproductive-Genetics.png"  /></p></div><p></p>
+						
+					</div>
+				</div>
+					</a>				
+									
+									
+									
+									
+									
+									
+									
+									
+                               
+							
+						</div>
+					</div>
+
+</div>
+
+ 
+
+	<script>
+	    $(document).ready(function () {
+		setTimeout(
+  function() 
+  {
+	        // init Isotope
+	        var $grid = $('.grid').isotope({
+	            itemSelector: '.grid-item',
+	        });
+	        $('.filters-button-group').on('click', 'button', function () {
+	            var filterValue = $(this).attr('data-filter');
+	            $grid.isotope({ filter: filterValue });
+	            return false;
+	        });
+	        // change is-checked class on buttons
+	        $('.button-group').each(function (i, buttonGroup) {
+	            var $buttonGroup = $(buttonGroup);
+	            $buttonGroup.on('click', 'button', function () {
+	                $buttonGroup.find('.is-checked').removeClass('is-checked');
+	                $(this).addClass('is-checked');
+	            });
+	        });
+			}, 1000);
+	    });
+        </script> 	  
+                      
+    </div>  
+	<!-- Left block -->
+   <div id="sidebar" class="col-md-3 col-md-pull-9">            
+  		
+             
+
+<div class="widget rounded-10" style="background-color: #fff;overflow: hidden;padding: 0px;">
+					<div style="background-color: #fff;margin:0px;border-bottom: 2px solid #3859b5">
+						<p class="w-title"><strong>Share this page</strong></p>
+					</div>
+					<div style="display: block;width: 100%;padding: 20px 10px; background-color: #fff;">
+						<div class="share text-center" style="padding: 0">
+							<span class="btn-group" style="width: 100%">
+								<span class="btn_share_wrapper">
+									<button onclick="window.open('http://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.eshre.eu%2fen%2fSpecialty-groups%2fSpecial-Interest-Groups%2fReproductive-Genetics%2fActivities', '_blank');" type="button" class="btn_share_ico share_mail"><i class="fa-brands fa-facebook-f"></i></button>
+								</span><span class="btn_share_wrapper">
+									<button onclick="window.open('http://twitter.com/intent/tweet?text=http%3a%2f%2fwww.eshre.eu%2fen%2fSpecialty-groups%2fSpecial-Interest-Groups%2fReproductive-Genetics%2fActivities', '_blank');" type="button" class="btn_share_ico share_facebook"><i class="fa-brands fa-x-twitter"></i></button>
+								</span><span class="btn_share_wrapper">
+									<button onclick="window.open('http://www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.eshre.eu%2fen%2fSpecialty-groups%2fSpecial-Interest-Groups%2fReproductive-Genetics%2fActivities', '_blank');" type="button" class="btn_share_ico share_linkedin"><i class="fa-brands fa-linkedin-in"></i></button>
+								</span><span class="btn_share_wrapper">
+									<button onclick="window.open('mailto:?body=http%3a%2f%2fwww.eshre.eu%2fen%2fSpecialty-groups%2fSpecial-Interest-Groups%2fReproductive-Genetics%2fActivities', '_self');" type="button" class="btn_share_ico share_twitter"><i class="fa-solid fa-envelope"></i></button>
+								</span>
+							</span>
+						</div>
+					</div>
+				</div> 	  
+    	</div>
+  </div>
+
+			</div>
+		</div>
+	
+        
+<footer id="footer">
+    <div class="footer-widget-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-widget text-widget">
+                        <h1>
+                            Shortcuts
+                        </h1>
+                        <ul>
+                            
+                                    <li><a href="/en/Home/About-us"><i class="fa fa-share"></i>About ESHRE - mission and values</a></li>
+                                
+                                    <li><a href="/en/Home/Committees/Executive-Committee"><i class="fa fa-share"></i>Executive Committee</a></li>
+                                
+                                    <li><a href="/en/Europe"><i class="fa fa-share"></i>Advocacy and policy engagement</a></li>
+                                
+                                    <li><a href="/en/Accreditation-and-Certification"><i class="fa fa-share"></i>ESHRE Certification</a></li>
+                                
+                                    <li><a href="/en/Press-Room/Resources/Fact-sheets"><i class="fa fa-share"></i>Factsheets</a></li>
+                                
+                                    <li><a href="/en/Membership/Job-board"><i class="fa fa-share"></i>Job board for ESHRE members</a></li>
+                                
+                                    <li><a href="/en/ESHRE2024/Beware-of-fraudulent-websites-and-e-mails"><i class="fa fa-share"></i>Beware of fraud - scam alert</a></li>
+                                
+                                    <li><a href="/en/Exhibition-and-sponsorship"><i class="fa fa-share"></i>Exhibition and sponsorship</a></li>
+                                
+                                    <li><a href="/-/media/sitecore-files/About-ESHRE/Terms-Conditions-Registration.pdf"><i class="fa fa-share"></i>Terms and conditions registration</a></li>
+                                
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-widget">
+                        <h1>
+                            Contact info
+                        </h1>
+                        <p><i class="fa fa-building"></i>ESHRE Central Office</p>
+                        <p>BXL7 - Building 1</p>
+                        <p>
+                            Nijverheidslaan 3, 1st floor 
+                            <br>
+                            B-1853 Strombeek-Bever, Belgium
+                        </p>
+                        <p><a href="/Home/Contact-us/Contact-Form.aspx">Contact us </a></p>
+
+
+                        <ul class="social list-inline">
+                            <li><a href="https://www.facebook.com/eshre.eu/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="https://twitter.com/eshre"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/european-society-of-human-reproduction-and-embryology-eshre-"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="mailto:info@eshre.eu"><i class="fa-solid fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-widget">
+                        <h1>
+                            MyESHRE
+                        </h1>
+                        <ul>
+                            
+                                    <li><a href="/en/Login/MyESHRE"><i class="fa fa-share"></i>MyESHRE - Login</a></li>
+                                
+                                    <li><a href="/en/Login/MyESHRE/Member-application-form-multi"><i class="fa fa-share"></i>Check your membership status</a></li>
+                                
+                                    <li><a href="/en/Login/MyESHRE/Newsletters"><i class="fa fa-share"></i>Subscribe to our newsletters</a></li>
+                                
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-widget">
+                        <h1>
+                            ESHRE Education
+                        </h1>
+                        <ul>
+                            
+                                    <li><a href="https://www.eshre.eu/ecampus"><i class="fa fa-share"></i>eCampus - ESHRE's  e-learning platform</a></li>
+                                
+                                    <li><a href="/en/Education/Calendar-Campus-events"><i class="fa fa-share"></i>Campus workshops</a></li>
+                                
+                                    <li><a href="/en/Education/Webinars"><i class="fa fa-share"></i>ESHRE Webinars</a></li>
+                                
+                                    <li><a href="/en/Publications/Journals"><i class="fa fa-share"></i>ESHRE Journals</a></li>
+                                
+                                    <li><a href="/en/Annual-Meeting"><i class="fa fa-share"></i>ESHRE Annual Meetings</a></li>
+                                
+                                    <li><a href="/en/Guidelines-and-Legal/Guidelines"><i class="fa fa-share"></i>ESHRE Guidelines</a></li>
+                                
+                                    <li><a href="/en/Research-and-funding/Research-grant"><i class="fa fa-share"></i>Research Grant</a></li>
+                                
+                                    <li><a href="http://www.fertilityeurope.eu/fertility-education-posters/"><i class="fa fa-share"></i>Fertility Education posters</a></li>
+                                
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <ul class="footer-menu list-inline">
+                        
+                                <li><a href="/en/ESHRE/Sitemap">Sitemap</a></li>
+                            
+                                <li><a href="/en/ESHRE/Cookies">Cookie policy</a></li>
+                            
+                                <li><a href="/en/Privacy-Declaration-ESHRE">Privacy declaration</a></li>
+                            
+                                <li><a href="/en/Code-of-Conduct">Anti-harassment/discrimination </a></li>
+                            
+                                <li><a href="/en/ESHRE/transparency-statement">Transparency</a></li>
+                            
+                                <li><a href="/en/Equality-and-Diversity-Statement">Equality and Diversity Statement</a></li>
+                            
+                                <li><a href="/en/Disclaimer">Disclaimer</a></li>
+                            
+                    </ul>
+                </div>
+
+                <div class="col-sm-5">
+                    <div class="copy-right text-right">
+                        <p>
+                            &#169; European Society of Human Reproduction and Embryology
+                            2024
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+	</div>
+
+
+       </form> 
+<script type="text/javascript">
+
+        if (readCookie("cookieconsent_status") == "allow") {
+
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-JQVYYLVHJP');
+                var _gaq = window.dataLayer;
+
+                //var _gaq = _gaq || [];
+                //_gaq.push(['_setAccount', 'UA-3158970-4']);
+                _gaq.push(['_setDomainName', 'eshre.eu']);
+
+                _gaq.push(['_setAllowLinker', true]);
+                _gaq.push(['_trackPageview']);
+
+            
+
+
+                $(document).ready(function ($) {
+
+
+
+
+                    var filetypes = /\.(zip|pdf|doc*|xls*|ppt*|jpg|ashx)$/i;
+                    var baseHref = '';
+                    if ($('base').attr('href') != undefined) baseHref = $('base').attr('href');
+                    $('a').each(function () {
+                        var href = $(this).attr('href');
+                        if (href) {
+
+                            if (href.indexOf('?') != '-1') {
+                                href = href.substring(0, href.indexOf('?'));
+                            }
+
+                            if (href.match(filetypes)) {
+                                $(this).click(function () {
+                                    var extension = String((/[.]/.exec(href)) ? /[^.]+$/.exec(href) : undefined);
+                                    var filePath = String(href);
+
+                                    _gaq.push(['_trackEvent', 'Download', extension, filePath]);
+                                    if ($(this).attr('target') != undefined && $(this).attr('target').toLowerCase() != '_blank') {
+                                        setTimeout(function () {
+                                            location.href = baseHref + href;
+                                        }, 200);
+                                        return false;
+                                    }
+                                });
+                            }
+                        }
+                    });
+                });
+            }
+        
+</script>  
+<script type="text/javascript" src="/js_Resp/retina.js"></script>	
+
+</body>
+</html>

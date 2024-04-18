@@ -1,0 +1,602 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <title>Anderson Clinical Exome gene panel</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <title>Anderson Clinical exome gene panel</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-yCm2s/z9PzMyuqGmyvN6i3e0N1xAcLgpcN4A1lqj5yI99T1e8T1IaR8MpD6vC+a" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <style>
+    body {
+        color: black; 
+    }
+    body {
+    background-color: white; 
+}
+#footer,
+#footer h3,
+#footer a,
+#footer span,
+#footer .icons a {
+    color: black !important;
+}
+
+#footer .menu li {
+    color: black !important;
+}
+
+#footer .icons a {
+    color: black !important;
+}
+
+#footer .menu li:first-child {
+    color: black !important;
+}
+
+#sidebar,
+#footer {
+  
+    background-color:#FFDAB9 !important;
+    color: blue !important;
+}
+#sidebar a {
+    color: blue !important; 
+}
+
+#sidebar,
+#footer {
+    background-color: #FFDAB9 !important;
+    color: black !important;
+}
+
+#footer {
+    color: black !important;
+}
+
+#footer a {
+    color: black !important;
+}
+#intro,
+#one,
+#two,
+#three,
+#four,
+#five {
+      color : white !important;
+    background-color: #fff0 !important; /* Set the background color for these sections (replace #fff0 with your desired color) */
+}
+/* For the "See more" button in the intro section */
+#intro .actions .button {
+    color: black !important; /* Set the text color to black */
+    border: 2px solid black !important; /* Set the border to black */
+}
+
+/* For the "Click to see more" button in the content sections */
+.wrapper.style2 .content .button {
+    color: black !important; /* Set the text color to black */
+    border: 2px solid black !important; /* Set the border to black */
+}
+
+/* Hover effect for better visibility */
+.wrapper.style2 .content .button:hover {
+    background: black !important; /* Change the background color on hover */
+    color: black !important; /* Change the text color on hover */
+}
+    p {
+    color: black !important;
+}
+
+    #intro h1 {
+        color: black; /* Set heading text color to black in the intro section */
+    }
+    #sidebar a {
+    color: black !important;
+    }
+
+    .button 
+    {
+    color: black !important; /* Set button text color to black */
+    }
+    h2 {
+    color: black !important; /* Set H2 text color to black */
+    }
+    h3 {
+    color: black !important; /* Set H2 text color to black */
+    }
+
+    /* Add more specific styles as needed */
+    </style>
+    <style>
+    #intro {
+        position: relative;
+        border: 1px solid #ccc; /* Add a border to the #intro section */
+        padding: 1em; /* Add padding to create space for the logo */
+    }
+
+    #intro .inner {
+        margin-top: 2em;
+        position: relative; /* Add relative positioning to establish a new positioning context */
+    }
+
+    #intro .image.logo {
+        position: absolute;
+        top: 0em;
+        right: 0em;	
+        z-index: 1; /* Ensure the logo appears above other elements */
+    }
+    #intro .image.logo1 
+    {
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    z-index: 1;
+    }
+    #five .fields label {
+    color: black !important;
+}
+#five .contact li {
+    color: black !important;
+}
+#five .fields:hover {
+    background: white !important; /* Change the background color on hover */
+    color: black !important; /* Change the text color on hover */
+}
+
+/* Hover effect for better visibility in contact information */
+#five .contact li:hover {
+    background: white !important; /* Change the background color on hover */
+    color: black !important; /* Change the text color on hover */
+}
+#five .button.submit {
+    border: 2px solid black !important;
+}
+#five .fields input,
+#five .fields textarea {
+    border: 2px solid black !important;
+}
+input:focus,
+textarea:focus {
+    outline: none;
+}
+.button:focus {
+    outline: none !important;
+}
+/* Disable focus outline for buttons */
+.button:focus,
+.button:active {
+    outline: none !important;
+    border: 2px solid black !important;
+}
+.wrapper.style2 .content .button,
+.wrapper.style2 .content .button:hover,
+.wrapper.style2 .content .button:focus {
+    color: black !important; /* Set the text color to black */
+    border: 2px solid black !important; /* Set the border to black */
+    background: transparent !important; /* Set the background to transparent */
+}
+#five {
+    border-bottom: 2px solid black; /* Add a black border at the bottom of the "Get in Touch" section */
+}
+
+#five {
+    border-top: 2px solid black; /* Add a black border at the top of the "Brochure" section */
+}
+/* Style for the brochure list */
+.brochure-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.brochure-list li {
+    margin-bottom: 10px;
+}
+
+.brochure-list a {
+    color: black;
+    text-decoration: none;
+}
+
+.brochure-list a:hover {
+    text-decoration: underline;
+}
+/* Style for the brochure list */
+.brochure-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.brochure-list li {
+    margin-bottom: 10px;
+}
+
+.brochure-list a {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.brochure-list a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.brochure-list a:hover {
+    color: #ff8800; /* Change the text color on hover */
+}
+
+.brochure-list a:hover:before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+#intro:hover {
+    background-color: #your_desired_color !important; /* Change #your_desired_color to the color you want on hover */
+    color: black !important; /* Set text color to black on hover */
+}
+
+#intro:hover a {
+    color: black !important; 
+text-decoration: underline;
+}
+#intro h1 {
+    color: orange !important; /* Set heading text color to orange in the intro section */
+}
+ #sidebar ul li.active {
+            background-color: #007BFF;
+            color: white;
+        }
+  </style>
+ <script>
+        // jQuery script to handle sidebar item selection
+        $(document).ready(function () {
+            // Event handler for sidebar item click
+            $("#sidebar ul li a").on("click", function () {
+                // Remove active class from all sidebar items
+                $("#sidebar ul li").removeClass("active");
+
+                // Add active class to the clicked item
+                $(this).parent().addClass("active");
+            });
+        });
+    </script>
+
+
+</head>
+<body class="is-preload">
+
+<!-- Sidebar -->
+<style>
+#sidebar ul li a {
+    display: block;
+    padding: 15px;
+    color: #004080 !important; /* Dark blue color */
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    border: 2px solid #004080; /* Dark blue border */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+
+#sidebar ul li a:hover {
+    background-color: #004080; /* Dark blue background on hover */
+    color: white !important;
+}
+#sidebar ul li a {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold !important;
+}
+/* Add this style to your existing CSS */
+#intro .actions .button:hover{
+    background-color: #004080; /* Dark blue background on hover */
+    color: white !important;
+}
+#one .actions .button:hover,
+#two .actions .button:hover,
+#three .actions .button:hover,
+#four .actions .button:hover,
+#five .actions .button:hover {
+    background-color: #004080; /* Dark blue background on hover */
+    color: blue !important;
+}
+#wrapper {
+    z-index: 1;
+}
+#wrapper {
+    z-index: 1;
+}
+
+
+</style>
+<section id="sidebar">
+    <div class="inner">
+        <nav>
+            <ul>
+                <li><a href="#intro">Welcome</a></li>
+                <li><a href="#one">Germline gene panel</a></li>
+                <li><a href="#three">Hereditary cancer gene panel</a></li>
+                <li><a href="#four">Brochure</a></li>
+                <li><a href="#five">Get in Touch</a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
+
+<!-- Wrapper -->
+<div id="wrapper">
+    <!-- Intro -->
+    <section id="intro" class="wrapper style1 fullscreen fade-up">
+    <a href="#" class="image logo"><img src="images/pic1.png" alt="Logo" /></a>
+    <a href="#" class="image logo logo1"><img src="images/pic2.png" alt="Logo1" /></a>
+        <div class="inner">
+            <h1>Anderson Clinical Genetics Exome gene panel</h1>
+            <p>A collective database of different disease panel  in <a
+                    href="https://www.andersondiagnostics.com/">Anderson Diagnostic and lab </a><br/>
+                <ul class="actions">
+                    <li><a href="#one" class="button scrolly">MORE</a></li>
+                </ul>
+        </div>
+    </section>
+
+    <!-- One -->
+    <section id="one" class="wrapper style2 spotlights">
+        <section>
+           
+            <img src="images/germ.png" alt="" data-position="center center" width="635" height="903" />
+       
+            <div class="content">
+                <div class="inner">
+                    <h2>Germline gene panel</h2>
+                    <p>A Germline Gene Panel refers to a specific set of genes that are analyzed for variations in the germline DNA of an individual. The germline DNA is inherited from both parents and is present in the reproductive cells (sperm and egg). This is in contrast to somatic DNA, which makes up the non-reproductive cells in the body.</p>
+                    <ul class="actions">
+                        <li><a href="generic.html" class="button">Click to see more</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+   </section>
+
+    <!-- Three -->
+<section id="three" class="wrapper style2 spotlights">
+    <section>
+        
+            <img src="images/her.png" alt="" data-position="center center" width="635" height="903" />
+       
+        <div class="content">
+            <div class="inner">
+                <h2>Hereditary Cancer gene panel</h2>
+                <p>A Hereditary Gene Panel is a specific set of genes that are analyzed to identify genetic variations associated with hereditary conditions or diseases. This type of genetic testing focuses on examining the germline DNA, which is the DNA inherited from both parents and is present in reproductive cells (sperm and egg).</p>
+                <ul class="actions">
+                    <li><a href="hereditary.html" class="button">Click to see more </a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</section>
+
+<style>
+        .brochure-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .brochure-list li {
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .brochure-list h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .brochure-list p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .brochure-list a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 15px;
+            background-color: #4285f4;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .brochure-list a:hover {
+            background-color: #3c78d8;
+        }
+
+        .brochure-list a i {
+            margin-right: 8px;
+        }
+    </style>
+
+  <!-- Four -->
+<section id="four" class="wrapper style2 spotlights">
+    <section>
+        
+          <a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" width="635" height="903"/></a>	
+        <div class="content">
+        <div class="content">
+            <div class="inner">
+                <h2>BROCHURES</h2>
+                <ul class="brochure-list">
+                    <li>
+                        <h3>ADVAT Brochure</h3>
+                        <p>Join the forefront of genetic advancements with our ADVAT Test. This cutting-edge technology opens doors to new possibilities in personalized healthcare. Witness the impact of groundbreaking genetic insights, propelling you into the future of proactive and personalized well-being.</p>
+                        <a href="/run/user/1000/gvfs/smb-share:server=192.168.2.122,share=gentics%20ftp/Staff/Prem/web/demo/advat.pdf" download="advat.pdf">
+    <i class="fas fa-download"></i> Download ADVAT Brochure PDF
+</a>
+
+                        
+                    </li>
+
+                    <li>
+                        <h3>Hereditary Cancer Gene Brochure</h3>
+                        <p>Take control of your well-being with our Hereditary Cancer Gene Test. Gain insights into your genetic predispositions, enabling you to make informed choices about your health. By understanding your hereditary risks, you become the guardian of your future, armed with the knowledge to detect and prevent cancer early.</p>
+                        <a href="C:\Users\Goldenhelix\Documents\Prem\websi\demo/hereditary.pdf" download="hereditary.pdf"> <i class="fas fa-download"></i> Download Hereditary Cancer Gene Brochure PDF
+                        </a>
+                    </li>
+                    <li>
+                        <h3>Carrier Screening Brochure</h3>
+                        <p>Embark on the journey of parenthood with confidence through our Carrier Screening Test. Ensure the health of future generations by understanding potential genetic risks. This test provides the precision needed for informed family planning, offering you the peace of mind every parent deserves.</p>
+                        <a href="C:\Users\Goldenhelix\Documents\Prem\websi\demo/Carrier Screening.pdf" download="Carrier Screening.pdf"> <i class="fas fa-download"></i> Download Carrier Screening Brochure PDF
+                        </a>
+                    </li>
+
+                    <li>
+                        <h3>Clinical Exome Sequencing Brochure</h3>
+                        <p>Elevate your healthcare journey with our Clinical Exome Sequencing Test. Go beyond traditional diagnostics and uncover the genetic nuances influencing your health. Experience the power of personalized medicine as we unravel the mysteries within your DNA, guiding your healthcare with unparalleled precision.</p>
+                        <a href="C:\Users\Goldenhelix\Documents\Prem\websi\demo/ces.pdf" download="ces.pdf"> <i class="fas fa-download"></i> Download Clinical Exome Sequencing Brochure PDF
+                        </a>
+                    </li>
+
+                
+                    <li>
+                        <h3> Whole exome sequencing Brochure</h3>
+                        <p>Overcome the challanges and embark on a journey of discovery through Whole Exome Sequencing (WES). Unraveling the secrets of your DNA, WES offers a comprehensive analysis that can unlock valuable insights into your health and genetic makeup.</p>
+                        <a href="C:\Users\Goldenhelix\Documents\Prem\websi\demo/wes.pdf" download="wes.pdf">
+                        <i class="fas fa-download"></i> Download Germline Gene Brochure PDF
+                        </a>
+                    </li>
+                     <li>
+                        <h3>RPL (Recurrent Pregnancy Loss) Brochure</h3>
+                        <p>Overcome the challenges of recurrent pregnancy loss with our RPL Genetic Test. Illuminate the genetic factors contributing to your journey and pave the way for a brighter, healthier future. By understanding the genetic landscape, you empower yourself to script a new chapter in your family's story.</p>
+                        <a href="C:\Users\Goldenhelix\Documents\Prem\websi\demo/RPL.pdf" download="RPL.pdf"> <i class="fas fa-download"></i> Download RPL Brochure PDF
+                        </a>
+                    </li>
+
+                    <li>
+                        <h3>Neurogenetic gene Brochure</h3>
+                        <p>Understand the importance of unraveling the mysteries of neurogenetic disorders. Our advanced testing services empower individuals and families with knowledge, offering hope and guidance on their journey toward better health.</p>
+                        <a href="C:\Users\Goldenhelix\Documents\Prem\websi\demo/Neurogenetic.pdf" download="Neurogenetic.pdf"><i class="fas fa-download"></i> Download Whole Exome Sequencing Brochure PDF
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+</section>
+
+
+    <!-- Five -->
+    <section id="five" class="wrapper style1 fade-up">
+        <div class="inner">
+            <h2>Get in touch</h2>
+            <p>Message us for any query.</p>
+            <div class="split style1">
+                <section>
+                    <form method="post" action="#">
+                        <div class="fields">
+                            <div class="field half">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name"/>
+                            </div>
+                            <div class="field half">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email"/>
+                            </div>
+                            <div class="field">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <ul class="actions">
+                            <li><a href="" class="button submit">Send Message</a></li>
+                        </ul>
+                    </form>
+                </section>
+                <section>
+                    <ul class="contact">
+                        <li>
+                            <h3>Address</h3>
+                            No:26, Rajarathinam Street, Kilpauk<br/>
+                            Chennai - 600100
+                        </li>
+                        <li>
+                            <h3>Email</h3>
+                            <a href="#">sachin@anderson.healthcare</a><br/>
+                        </li>
+                        <li>
+                            <h3>contact us</h3>
+                            <a href="#">https://www.andersondiagnostics.com/contact/</a><br/>
+                        </li>
+                        <li>
+                            <h3>Phone</h3>
+                            <span>(000) 000-0000</span>
+                        </li>
+                        <li>
+                            <h3>Social</h3>
+                            <ul class="icons">
+                                <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
+                                </li>
+                                <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
+                                </li>
+                                <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                                <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a>
+                                </li>
+                                <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<!-- Footer -->
+<footer id="footer" class="wrapper style1-alt">
+    <div class="inner">
+        <ul class="menu">
+            <li>&copy; Untitled. All rights reserved.</li>
+            <li>Design: BIOINFORMATIC LAB (ANDERSON DIAGNOSTIC AND LABS) </a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha384-OiA4tN2t9AAK53wmtzxpH9TLv8a6EZ7aNdUVfQxQ+qzOpIfyBiypAVyZa+mmI5cL" crossorigin="anonymous"></script>
+
+</body>
+</html>
