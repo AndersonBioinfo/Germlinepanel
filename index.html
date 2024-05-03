@@ -419,7 +419,7 @@ text-decoration: underline;
             margin-bottom: 15px;
         }
 
-        .brochure-list a {
+        .brochure-button {
             display: inline-flex;
             align-items: center;
             justify-content: center;
@@ -431,23 +431,20 @@ text-decoration: underline;
             transition: background-color 0.3s ease;
         }
 
-        .brochure-list a:hover {
+        .brochure-button:hover {
             background-color: #3c78d8;
         }
 
-        .brochure-list a i {
+        .brochure-button i {
             margin-right: 8px;
         }
-        .ces a{
+        #clickable-link a{
             color: blue; /* Change link color */
             text-decoration: underline; /* Underline the link */
             cursor: pointer; /* Show hand cursor on hover */
 
         }
-        .ces a:hover{
-            color: darkblue; /* Change color on hover */
-
-        }
+        
         
 
     </style>
@@ -465,7 +462,7 @@ text-decoration: underline;
                     <li>
                         <h3>ADVAT Brochure</h3>
                         <p>Join the forefront of genetic advancements with our ADVAT Test. This cutting-edge technology opens doors to new possibilities in personalized healthcare. Witness the impact of groundbreaking genetic insights, propelling you into the future of proactive and personalized well-being.</p>
-                        <a href="advat.pdf" download="advat.pdf">
+                        <a href="advat.pdf" download="advat.pdf" class="brochure-button">
     <i class="fas fa-download"></i> Download ADVAT Brochure PDF
 </a>
 
@@ -476,38 +473,39 @@ text-decoration: underline;
                     <li>
                         <h3>ADVAT Focus Carrier Screening Panel</h3>
                         <p>Explore the path to parenthood assuredly with our Carrier Screening Panel, ensuring the well-being of future generations by uncovering genetic risks. Our comprehensive test empowers informed family planning, delivering the peace of mind every parent seeks.</p>
-                        <a href="Carrier Screening Panel.pdf" download="Carrier Screening Panel.pdf"> <i class="fas fa-download"></i>ADVAT Focus Download Carrier Screening Brochure PDF
+                        <a href="Carrier Screening Panel.pdf" download="Carrier Screening Panel.pdf" class="brochure-button"> <i class="fas fa-download"></i>ADVAT Focus Download Carrier Screening Brochure PDF
                         </a>
                     </li>
 
                     <li>
                         <h3>Clinical Exome Sequencing Brochure</h3>
                         <p>Elevate your healthcare journey with our Clinical Exome Sequencing Test. Go beyond traditional diagnostics and uncover the genetic nuances influencing your health. Experience the power of personalized medicine as we unravel the mysteries within your DNA, guiding your healthcare with unparalleled precision.</p>
-                        <a href="ces.pdf" download="ces.pdf"> <i class="fas fa-download"></i> Download Clinical Exome Sequencing Brochure PDF
+                        <a href="ces.pdf" download="ces.pdf" class="brochure-button"> <i class="fas fa-download"></i> Download Clinical Exome Sequencing Brochure PDF
                         </a>
-                        <div class="ces">
-                        <a href="https://andersonbioinfo.github.io/CES/" id="clickable-link"> Click here </a></div>
+                        
+                        <a href="https://andersonbioinfo.github.io/CES/" id="clickable-link"> Click here to get the CES gene </a>
                     </li>
 
                 
                     <li>
                         <h3> Whole exome sequencing Brochure</h3>
                         <p>Overcome the challanges and embark on a journey of discovery through Whole Exome Sequencing (WES). Unraveling the secrets of your DNA, WES offers a comprehensive analysis that can unlock valuable insights into your health and genetic makeup.</p>
-                        <a href="wes.pdf" download="wes.pdf">
+                        <a href="wes.pdf" download="wes.pdf" class="brochure-button">
                         <i class="fas fa-download"></i> Download Germline Gene Brochure PDF
                         </a>
+                        <a href="https://andersonbioinfo.github.io/WES/" id="clickable-link"> Click here to get the WES gene </a>
                     </li>
                      <li>
                         <h3>RPL (Recurrent Pregnancy Loss) Brochure</h3>
                         <p>Overcome the challenges of recurrent pregnancy loss with our RPL Genetic Test. Illuminate the genetic factors contributing to your journey and pave the way for a brighter, healthier future. By understanding the genetic landscape, you empower yourself to script a new chapter in your family's story.</p>
-                        <a href="RPL.pdf" download="RPL.pdf"> <i class="fas fa-download"></i> Download RPL Brochure PDF
+                        <a href="RPL.pdf" download="RPL.pdf" class="brochure-button"> <i class="fas fa-download"></i> Download RPL Brochure PDF
                         </a>
                     </li>
 
                     <li>
                         <h3>Neurogenetic gene Brochure</h3>
                         <p>Understand the importance of unraveling the mysteries of neurogenetic disorders. Our advanced testing services empower individuals and families with knowledge, offering hope and guidance on their journey toward better health.</p>
-                        <a href="Neurogenetic.pdf" download="Neurogenetic.pdf"><i class="fas fa-download"></i> Download Whole Exome Sequencing Brochure PDF
+                        <a href="Neurogenetic.pdf" download="Neurogenetic.pdf" class="brochure-button"><i class="fas fa-download"></i> Download Whole Exome Sequencing Brochure PDF
                         </a>
                     </li>
 
