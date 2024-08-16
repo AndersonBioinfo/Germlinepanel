@@ -72,7 +72,8 @@
 #two,
 #three,
 #four,
-#five {
+#five,
+#report{
       color : white !important;
     background-color: #fff0 !important; /* Set the background color for these sections (replace #fff0 with your desired color) */
 }
@@ -335,6 +336,7 @@ text-decoration: underline;
                 <li><a href="#one">Germline gene panel</a></li>
                 <li><a href="#three">Hereditary cancer gene panel</a></li>
                 <li><a href="#four">Brochure</a></li>
+                <li><a href="#report">Report Templates</a></li>
                 <li><a href="#five">Get in Touch</a></li>
             </ul>
         </nav>
@@ -379,7 +381,7 @@ text-decoration: underline;
 <section id="three" class="wrapper style2 spotlights">
     <section>
         
-            
+            <img src="images/her.png" alt="" data-position="center center" width="635" height="903" />
        
         <div class="content">
             <div class="inner">
@@ -419,7 +421,7 @@ text-decoration: underline;
             margin-bottom: 15px;
         }
 
-        .brochure-button {
+        .brochure-list a {
             display: inline-flex;
             align-items: center;
             justify-content: center;
@@ -431,22 +433,20 @@ text-decoration: underline;
             transition: background-color 0.3s ease;
         }
 
-        .brochure-button:hover {
+        .brochure-list a:hover {
             background-color: #3c78d8;
         }
 
-        .brochure-button i {
+        .brochure-list a i {
             margin-right: 8px;
         }
-        #clickable-link a{
-            color: blue; /* Change link color */
-            text-decoration: underline; /* Underline the link */
-            cursor: pointer; /* Show hand cursor on hover */
-
+         #report .actions .button:hover, #one .actions .button:hover, #two .actions .button:hover, #three .actions .button:hover, #four .actions .button:hover, #five .actions .button:hover {
+            background-color: #004080; 
+            color: blue !important;
         }
-        
-        
-
+        #report {
+            border-top: 2px solid black;
+        }
     </style>
 
   <!-- Four -->
@@ -462,57 +462,52 @@ text-decoration: underline;
                     <li>
                         <h3>ADVAT Brochure</h3>
                         <p>Join the forefront of genetic advancements with our ADVAT Test. This cutting-edge technology opens doors to new possibilities in personalized healthcare. Witness the impact of groundbreaking genetic insights, propelling you into the future of proactive and personalized well-being.</p>
-                        <a href="advat.pdf" download="advat.pdf" class="brochure-button">
+                        <a href="/run/user/1000/gvfs/smb-share:server=192.168.2.122,share=gentics%20ftp/Staff/Prem/web/demo/advat.pdf" download="advat.pdf">
     <i class="fas fa-download"></i> Download ADVAT Brochure PDF
 </a>
 
                         
                     </li>
 
-
                     <li>
-                        <h3>ADVAT Focus Carrier Screening Panel</h3>
-                        <p>Explore the path to parenthood assuredly with our Carrier Screening Panel, ensuring the well-being of future generations by uncovering genetic risks. Our comprehensive test empowers informed family planning, delivering the peace of mind every parent seeks.</p>
-                        <a href="Carrier Screening Panel.pdf" download="Carrier Screening Panel.pdf" class="brochure-button"> <i class="fas fa-download"></i>ADVAT Focus Download Carrier Screening Brochure PDF
+                        <h3>Hereditary Cancer Gene Brochure</h3>
+                        <p>Take control of your well-being with our Hereditary Cancer Gene Test. Gain insights into your genetic predispositions, enabling you to make informed choices about your health. By understanding your hereditary risks, you become the guardian of your future, armed with the knowledge to detect and prevent cancer early.</p>
+                        <a href="C:\Users\Goldenhelix\Documents\Prem\websi\demo/hereditary.pdf" download="hereditary.pdf"> <i class="fas fa-download"></i> Download Hereditary Cancer Gene Brochure PDF
                         </a>
-                        <a href="https://andersonbioinfo.github.io/ADVAT/" id="clickable-link"> Click here to get the ADVAT gene </a>
+                    </li>
+                    <li>
+                        <h3>Carrier Screening Brochure</h3>
+                        <p>Embark on the journey of parenthood with confidence through our Carrier Screening Test. Ensure the health of future generations by understanding potential genetic risks. This test provides the precision needed for informed family planning, offering you the peace of mind every parent deserves.</p>
+                        <a href="C:\Users\Goldenhelix\Documents\Prem\websi\demo/Carrier Screening.pdf" download="Carrier Screening.pdf"> <i class="fas fa-download"></i> Download Carrier Screening Brochure PDF
+                        </a>
                     </li>
 
                     <li>
                         <h3>Clinical Exome Sequencing Brochure</h3>
                         <p>Elevate your healthcare journey with our Clinical Exome Sequencing Test. Go beyond traditional diagnostics and uncover the genetic nuances influencing your health. Experience the power of personalized medicine as we unravel the mysteries within your DNA, guiding your healthcare with unparalleled precision.</p>
-                        <a href="ces.pdf" download="ces.pdf" class="brochure-button"> <i class="fas fa-download"></i> Download Clinical Exome Sequencing Brochure PDF
+                        <a href="C:\Users\Goldenhelix\Documents\Prem\websi\demo/ces.pdf" download="ces.pdf"> <i class="fas fa-download"></i> Download Clinical Exome Sequencing Brochure PDF
                         </a>
-                        
-                        <a href="https://andersonbioinfo.github.io/CES/" id="clickable-link"> Click here to get the CES gene </a>
                     </li>
 
                 
                     <li>
                         <h3> Whole exome sequencing Brochure</h3>
                         <p>Overcome the challanges and embark on a journey of discovery through Whole Exome Sequencing (WES). Unraveling the secrets of your DNA, WES offers a comprehensive analysis that can unlock valuable insights into your health and genetic makeup.</p>
-                        <a href="wes.pdf" download="wes.pdf" class="brochure-button">
-                        <i class="fas fa-download"></i> Download Whole exome sequencing  Brochure PDF
+                        <a href="C:\Users\Goldenhelix\Documents\Prem\websi\demo/wes.pdf" download="wes.pdf">
+                        <i class="fas fa-download"></i> Download Germline Gene Brochure PDF
                         </a>
-                        <a href="https://andersonbioinfo.github.io/WES/" id="clickable-link"> Click here to get the WES gene </a>
                     </li>
                      <li>
                         <h3>RPL (Recurrent Pregnancy Loss) Brochure</h3>
                         <p>Overcome the challenges of recurrent pregnancy loss with our RPL Genetic Test. Illuminate the genetic factors contributing to your journey and pave the way for a brighter, healthier future. By understanding the genetic landscape, you empower yourself to script a new chapter in your family's story.</p>
-                        <a href="RPL.pdf" download="RPL.pdf" class="brochure-button"> <i class="fas fa-download"></i> Download RPL Brochure PDF
+                        <a href="C:\Users\Goldenhelix\Documents\Prem\websi\demo/RPL.pdf" download="RPL.pdf"> <i class="fas fa-download"></i> Download RPL Brochure PDF
                         </a>
                     </li>
 
                     <li>
                         <h3>Neurogenetic gene Brochure</h3>
                         <p>Understand the importance of unraveling the mysteries of neurogenetic disorders. Our advanced testing services empower individuals and families with knowledge, offering hope and guidance on their journey toward better health.</p>
-                        <a href="Neurogenetic.pdf" download="Neurogenetic.pdf" class="brochure-button"><i class="fas fa-download"></i> Download Neurogenetic gene Brochure Brochure PDF
-                        </a>
-                    </li>
-                    <li>
-                        <h3>Anderson Female Infertility</h3>
-                        <p>Next Generation Sequencing technology to identify genetic root cause of infertility. Sequences hundreds of genes and 53 polymorphic genes that are both causative and risk enhancing genotypes. Anderson Female Infertility Test is a test that screens for single nucleotide variants and single polymorphic variants associated with Female infertility.</p>
-                        <a href="ANDERSON FEMALE INFERTILITY PANEL.pdf" download="ANDERSON FEMALE INFERTILITY PANEL.pdf" class="brochure-button"><i class="fas fa-download"></i> Download Anderson Female Infertility Brochure PDF
+                        <a href="C:\Users\Goldenhelix\Documents\Prem\websi\demo/Neurogenetic.pdf" download="Neurogenetic.pdf"><i class="fas fa-download"></i> Download Whole Exome Sequencing Brochure PDF
                         </a>
                     </li>
 
@@ -522,7 +517,21 @@ text-decoration: underline;
     </section>
 </section>
 
-
+<!-- Report Templates -->
+    <section id="report" class="wrapper style2 spotlights">
+        <section>
+            <img src="images/report_templates.png" alt="" data-position="center center" width="635" height="903" />
+            <div class="content">
+                <div class="inner">
+                    <h2>Report Templates</h2>
+                    <p>Click Here to view sample report templates for various panels</p>
+                    <ul class="actions">
+                        <li><a href="templates.html" class="button">View Templates</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
     <!-- Five -->
     <section id="five" class="wrapper style1 fade-up">
         <div class="inner">
