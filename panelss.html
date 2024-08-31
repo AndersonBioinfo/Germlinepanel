@@ -72,7 +72,8 @@
 #two,
 #three,
 #four,
-#five {
+#five,
+#report{
       color : white !important;
     background-color: #fff0 !important; /* Set the background color for these sections (replace #fff0 with your desired color) */
 }
@@ -335,6 +336,7 @@ text-decoration: underline;
                 <li><a href="#one">Germline gene panel</a></li>
                 <li><a href="#three">Hereditary cancer gene panel</a></li>
                 <li><a href="#four">Brochure</a></li>
+                <li><a href="#report">Report Templates</a></li>
                 <li><a href="#five">Get in Touch</a></li>
             </ul>
         </nav>
@@ -438,9 +440,16 @@ text-decoration: underline;
         .brochure-list a i {
             margin-right: 8px;
         }
+         #report .actions .button:hover, #one .actions .button:hover, #two .actions .button:hover, #three .actions .button:hover, #four .actions .button:hover, #five .actions .button:hover {
+            background-color: #004080; 
+            color: blue !important;
+        }
+        #report {
+            border-top: 2px solid black;
+        }
     </style>
 
-  <!-- Four -->
+   <!-- Four -->
 <section id="four" class="wrapper style2 spotlights">
     <section>
         
@@ -504,7 +513,21 @@ text-decoration: underline;
     </section>
 </section>
 
-
+<!-- Report Templates -->
+    <section id="report" class="wrapper style2 spotlights">
+        <section>
+            <img src="images/report_templates.png" alt="" data-position="center center" width="635" height="903" />
+            <div class="content">
+                <div class="inner">
+                    <h2>Report Templates</h2>
+                    <p>Click Here to view sample report templates for various panels</p>
+                    <ul class="actions">
+                        <li><a href="templates.html" class="button">View Templates</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
     <!-- Five -->
     <section id="five" class="wrapper style1 fade-up">
         <div class="inner">
